@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Calcule a sua idade</h1>
+    </header>
+    <section>
+        <div id="msg">
+            
+            <p>Data de nascimento:
+            <input type="number" name="txtano" id="txtano"></p>
+
+            <p>Sexo:
+                <input type="radio" name="radsexo" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radsexo" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Calcular" onclick='calcular()'>
+            </p>
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy; Paulo Henrique Zancan Zoldan</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
