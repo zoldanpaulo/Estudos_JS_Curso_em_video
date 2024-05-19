@@ -8,4 +8,4 @@ if (idade > 18 && idade < 75) {
     } else {
         console.log(`Você não pode votar`)
     }       
-} //Fiz diferente do Guanabara antes dele mostrar, dava para simplificar conforme está nas nostas da aula 12
+} //Fiz diferente do Guanabara antes dele mostrar, dava para simplificar conforme está nas notas da aula 12
