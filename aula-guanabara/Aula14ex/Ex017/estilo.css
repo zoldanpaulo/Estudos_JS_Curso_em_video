@@ -1,5 +1,5 @@
 body {
-    background: midnightblue;
+    background: darkolivegreen;
     font: normal 18pt Arial;
 }
 
@@ -10,7 +10,7 @@ header {
 }
 
 section {
-    background: black;
+    background: goldenrod;
     color: white;
     border-radius: 5px;
     padding: 15px;

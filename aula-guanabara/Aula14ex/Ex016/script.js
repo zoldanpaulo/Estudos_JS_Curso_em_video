@@ -8,7 +8,7 @@ function calcular() {
         window.alert('[ERRO] dados incompletos!')
     } else {
         res.innerHTML = 'Contando: <br> '
-        let i = Number(ini.value) //converte o testo do vinicial para número
+        let i = Number(ini.value) //converte o texto do vinicial para número
         let f = Number(fim.value)
         let p = Number(passo.value)
         if (p <= 0) {
